@@ -11,7 +11,12 @@ uses the [ipfs api](https://www.npmjs.com/package/ipfs-api)
 
 make sure you have an IPFS daemon running locally, or use these environment variables to set the location of your IPFS daemon (API must be enabled and accessible)
 
-
+Available environment variables:
+```
+ipfs_daemon_host
+ipfs_daemon_port
+ipfs_daemon_protocol
+```
 
 
 ## Usage
