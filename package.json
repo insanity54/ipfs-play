@@ -1,0 +1,16 @@
+{
+  "name": "ipfs-play",
+  "version": "1.0.0",
+  "description": "messing around with ipfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT",
+  "dependencies": {
+    "ipfs-js": "0.0.7",
+    "ipfs-mdns": "^0.3.0",
+    "ipfs-peer": "^0.3.1"
+  }
+}
