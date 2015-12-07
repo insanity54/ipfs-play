@@ -6,11 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insanity54/ipfs-play"
+  },
+  "bugs": {
+    "url": "https://github.com/insanity54/ipfs-play/issues"
+  },
+  "homepage": "https://github.com/insanity54/ipfs-play",
   "author": "Chris Grimmett <chris@grimtech.net>",
   "license": "MIT",
   "dependencies": {
+    "ipfs-api": "^2.9.13",
     "ipfs-js": "0.0.7",
     "ipfs-mdns": "^0.3.0",
-    "ipfs-peer": "^0.3.1"
+    "ipfs-peer": "^0.3.1",
+    "nconf": "^0.8.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1"
   }
 }
