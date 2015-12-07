@@ -1,6 +1,6 @@
 # ipfs-play
 
-helps save and load game data and hiscores into ipfs.
+helps save and load game data and hiscores into ipfs. I made this intending to use it during the next [ludum dare](https://ludumdare.com/compo) game jam.
 
 uses the [ipfs api](https://www.npmjs.com/package/ipfs-api)
 
@@ -24,7 +24,7 @@ ipfs_daemon_protocol
 **See example dir for more detailed and commented code**
 
 Save game data to IPFS
-```
+```javascript
 var ipfsPlay = require('ipfsPlay');
 
 var saveData = {"level": 5};
@@ -38,7 +38,7 @@ ipfsPlay.save(saveData, function(err, key) {
 ```
 
 Load game data from IPFS
-```
+```javascript
 var key = 'QmPJQv5888kUNFXLvr8duLu9De6sgGog896jBGYnBWk6f1';
 ipfsPlay.load(key, function (err, gameData) {
 
