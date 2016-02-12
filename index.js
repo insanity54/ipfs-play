@@ -3,9 +3,9 @@ var nconf = require('nconf');
 
 // see if ipfs connection settings were configured in environment variables
 nconf.env(
-  'ipfs_daemon_host',
-  'ipfs_daemon_port',
-  'ipfs_daemon_protocol'
+  'IPFS_DAEMON_HOST'
+  'IPFS_DAEMON_PORT',
+  'IPFS_DAEMON_PROTOCOL'
 );
 
 var ipfsDaemonHost;
@@ -14,9 +14,9 @@ var ipfsDaemonProtocol;
 var options;
 var ipfs;
 
-ipfsDaemonHost = nconf.get('ipfs_daemon_host');
-ipfsDaemonPort = nconf.get('ipfs_daemon_port');
-ipfsDaemonProtocol = nconf.get('ipfs_daemon_protocol');
+ipfsDaemonHost = nconf.get('IPFS_DAEMON_HOST');
+ipfsDaemonPort = nconf.get('IPFS_DAEMON_PORT');
+ipfsDaemonProtocol = nconf.get('IPFS_DAEMON_PROTOCOL');
 
 
 if (typeof (ipfsDaemonHost) !== 'undefined') {
@@ -123,7 +123,7 @@ var load = function load(key, cb) {
 
       if (res.readable) {
         console.log('piping');
-        
+
         var string = ''
         res.on('readable', function () {
           var part = res.read(); //.toString();
@@ -150,7 +150,7 @@ var load = function load(key, cb) {
    *
    * @callback {onLoadedCallback}
    * @param {error} err
-   * @param {JSON} data - game save data 
+   * @param {JSON} data - game save data
    */
 
 
