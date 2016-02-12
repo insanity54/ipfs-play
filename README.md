@@ -2,7 +2,7 @@
 
 helps save and load game data and hiscores into ipfs. I made this intending to use it during the next [ludum dare](https://ludumdare.com/compo) game jam.
 
-uses the [ipfs api](https://www.npmjs.com/package/ipfs-api)
+uses the [ipfs api](https://www.npmjs.com/package/ipfs-api) by wrapping `ipfs.add`.
 
 
 ## Installation
