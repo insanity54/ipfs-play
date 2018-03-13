@@ -59,3 +59,9 @@ see example directory for more detail and commented code
   * [ ] add error type where ipfs-play can't connect to ipfs daemon
   * [ ] add error type where ipfs-play couldn't find the save key
   * [ ] add error type where ipfs-play didn't get valid saveData using the key
+
+## Feedback
+
+If you have used and enjoy this code base, I'd love to hear from you!
+
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/insanity54)
