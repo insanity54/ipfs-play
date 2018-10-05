@@ -17,13 +17,13 @@
   "author": "Chris Grimmett <chris@grimtech.net>",
   "license": "MIT",
   "dependencies": {
-    "ipfs-api": "^2.9.13",
-    "ipfs-js": "0.0.7",
+    "ipfs-api": "^24.0.2",
+    "ipfs-js": "0.0.11",
     "ipfs-mdns": "^0.3.0",
     "ipfs-peer": "^0.3.1",
-    "nconf": "^0.8.2"
+    "nconf": "^0.10.0"
   },
   "devDependencies": {
-    "chai": "^3.4.1"
+    "chai": "^4.2.0"
   }
 }
